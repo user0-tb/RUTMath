@@ -66,6 +66,9 @@ class SettingsFragment() : BaseFragment() {
                 rbPortuguese.id -> {
                     setPreviewText("pt")
                 }
+                rbGerman.id -> {
+                    setPreviewText("de")
+                }
                 else -> error("error while checking")
             }
         }
