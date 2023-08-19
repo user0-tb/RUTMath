@@ -139,6 +139,7 @@ class SettingsFragment() : BaseFragment() {
             "pl" -> rbPolish.isChecked = true
             "fr" -> rbFrench.isChecked = true
             "pt" -> rbPortuguese.isChecked = true
+            "de" -> rbGerman.isChecked = true
             else -> rbEnglish.isChecked = true
         }
     }
